@@ -1,0 +1,4 @@
+2022-07-30 17:45:52,609 - INFO - [root] - [test_login.py - (test_login_api:14)] - {'account': 'root', 'password': 123456}
+2022-07-30 17:45:52,609 - INFO - [root] - [test_login.py - (test_login_api:15)] - http://localhost/zentaopms/www/api.php/v1/tokens
+2022-07-30 17:45:52,674 - INFO - [root] - [test_login.py - (test_login_api:14)] - {'account': 'root', 'password': 'tian159.'}
+2022-07-30 17:45:52,674 - INFO - [root] - [test_login.py - (test_login_api:15)] - http://localhost/zentaopms/www/api.php/v1/tokens

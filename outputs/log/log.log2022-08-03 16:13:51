@@ -1,0 +1,8 @@
+2022-08-03 16:13:51,365 - INFO - [root] - [apiRequerts.py - (request:32)] - ----------------------------------------------------------------------------------------------------
+2022-08-03 16:13:51,365 - INFO - [root] - [apiRequerts.py - (request:33)] - [  api name       ]: tokens
+2022-08-03 16:13:51,365 - INFO - [root] - [apiRequerts.py - (request:34)] - [  request url    ]: http://localhost/zentaopms/www/api.php/v1/tokens
+2022-08-03 16:13:51,365 - INFO - [root] - [apiRequerts.py - (request:35)] - [  method         ]: POST
+2022-08-03 16:13:51,365 - INFO - [root] - [apiRequerts.py - (request:36)] - [  status code    ]: 201
+2022-08-03 16:13:51,365 - INFO - [root] - [apiRequerts.py - (request:37)] - [  time total     ]: 0.097463
+2022-08-03 16:13:51,365 - INFO - [root] - [apiRequerts.py - (request:40)] - [  response json  ]: {'token': '678447ebf6208b818158659f8d02239e'}
+2022-08-03 16:13:51,365 - INFO - [root] - [apiRequerts.py - (request:43)] - ----------------------------------------------------------------------------------------------------

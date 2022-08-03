@@ -1,0 +1,4 @@
+2022-08-03 16:02:48,422 - INFO - [root] - [decorator.py - (wrapper:6)] - 请求的方法是：POST
+2022-08-03 16:02:48,423 - INFO - [root] - [decorator.py - (wrapper:10)] - 请求头headers是{'Content-Type': 'application/json'}
+2022-08-03 16:02:48,498 - INFO - [root] - [decorator.py - (wrapper:6)] - 请求的方法是：POST
+2022-08-03 16:02:48,498 - INFO - [root] - [decorator.py - (wrapper:10)] - 请求头headers是{'Content-Type': 'application/json'}

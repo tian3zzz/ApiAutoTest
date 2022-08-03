@@ -1,0 +1,20 @@
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:227 Starting new HTTP connection (1): 127.0.0.1:9981
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:9981 "POST http://localhost/zentaopms/www/api.php/v1/tokens HTTP/1.1" 201 44
+[32mINFO    [0m root:apiRequerts.py:32 ----------------------------------------------------------------------------------------------------
+[32mINFO    [0m root:apiRequerts.py:33 [  api name       ]: tokens
+[32mINFO    [0m root:apiRequerts.py:34 [  request url    ]: http://localhost/zentaopms/www/api.php/v1/tokens
+[32mINFO    [0m root:apiRequerts.py:35 [  method         ]: POST
+[32mINFO    [0m root:apiRequerts.py:36 [  status code    ]: 201
+[32mINFO    [0m root:apiRequerts.py:37 [  time total     ]: 0.068926
+[32mINFO    [0m root:apiRequerts.py:40 [  response json  ]: {'token': '73ff666f1273f88564894363f4ed9d98'}
+[32mINFO    [0m root:apiRequerts.py:43 ----------------------------------------------------------------------------------------------------
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:227 Starting new HTTP connection (1): 127.0.0.1:9981
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:9981 "GET http://localhost/zentaopms/www/api.php/v1/user HTTP/1.1" 200 656
+[32mINFO    [0m root:apiRequerts.py:32 ----------------------------------------------------------------------------------------------------
+[32mINFO    [0m root:apiRequerts.py:33 [  api name       ]: user
+[32mINFO    [0m root:apiRequerts.py:34 [  request url    ]: http://localhost/zentaopms/www/api.php/v1/user
+[32mINFO    [0m root:apiRequerts.py:35 [  method         ]: GET
+[32mINFO    [0m root:apiRequerts.py:36 [  status code    ]: 200
+[32mINFO    [0m root:apiRequerts.py:37 [  time total     ]: 0.062639
+[32mINFO    [0m root:apiRequerts.py:40 [  response json  ]: {'profile': {'id': 1, 'company': 0, 'type': 'inside', 'dept': 0, 'account': 'root', 'role': {'code': '', 'name': ''}, 'realname': 'root', 'pinyin': '', 'nickname': '', 'commiter': '', 'avatar': '', 'birthday': None, 'gender': 'f', 'email': '', 'skype': '', 'qq': '', 'mobile': '', 'phone': '', 'weixin': '', 'dingding': '', 'slack': '', 'whatsapp': '', 'address': '', 'zipcode': '', 'nature': '', 'analysis': '', 'strategy': '', 'join': None, 'visits': 115, 'visions': 'rnd,lite', 'ip': '::1', 'last': '2022-08-02T06:34:45Z', 'fails': 0, 'locked': None, 'feedback': '0', 'ranzhi': '', 'ldap': '', 'score': 0, 'scoreLevel': 0, 'resetToken': '', 'deleted': '0', 'clientStatus': 'offline', 'clientLang': 'zh-cn', 'admin': True, 'superReviewer': False}}
+[32mINFO    [0m root:apiRequerts.py:43 ----------------------------------------------------------------------------------------------------
