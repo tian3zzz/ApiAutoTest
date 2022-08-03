@@ -1,6 +1,0 @@
-2022-07-31 13:21:41,633 - INFO - [root] - [test_login.py - (test_login_api:18)] - {'arrt': {'account': 'root', 'password': 123456}, 'assert': {'compart': 'equals', 'expect': '登录失败，请检查您的用户名或密码是否填写正确。'}}
-2022-07-31 13:21:41,634 - INFO - [root] - [test_login.py - (test_login_api:19)] - None
-2022-07-31 13:21:41,634 - INFO - [root] - [assert_utils.py - (is_equal:11)] - None
-2022-07-31 13:21:41,634 - INFO - [root] - [assert_utils.py - (is_equal:12)] - 登录失败，请检查您的用户名或密码是否填写正确。
-2022-07-31 13:21:41,889 - INFO - [root] - [test_login.py - (test_login_api:18)] - {'arrt': {'account': 'root', 'password': 'tian159.'}, 'assert': {'compart': 'not_equals', 'expect': '登录失败，请检查您的用户名或密码是否填写正确。'}}
-2022-07-31 13:21:41,889 - INFO - [root] - [test_login.py - (test_login_api:19)] - fbb6f7ce57b399922562ee143335094e

@@ -1,4 +1,0 @@
-2022-07-30 15:06:38,126 - INFO - [root] - [test_login.py - (test_login_api:14)] - {'account': 'root', 'password': 123456}
-2022-07-30 15:06:38,126 - INFO - [root] - [test_login.py - (test_login_api:15)] - http://192.168.199.68:80/zentao/api.php/v1/tokens
-2022-07-30 15:06:43,162 - INFO - [root] - [test_login.py - (test_login_api:14)] - {'account': 'root', 'password': 'tian159.'}
-2022-07-30 15:06:43,163 - INFO - [root] - [test_login.py - (test_login_api:15)] - http://192.168.199.68:80/zentao/api.php/v1/tokens
