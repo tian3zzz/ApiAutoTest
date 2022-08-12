@@ -2,8 +2,8 @@ import requests
 import config
 from common import apiRequerts
 
-class GetTokinApi:
 
+class GetTokinApi:
     post_token_url = config.BASE_URL + '/tokens'
 
     def send_get_token_api(self, payload):

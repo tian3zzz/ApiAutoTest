@@ -1,16 +1,6 @@
 -
   testCases:
-    payload:
-      account: root
-      password: 123456
-    assert:
-      $.error:
-        compart: equals
-        expect: 登录失败，请检查您的用户名或密码是否填写正确。
-
-
--
-  testCases:
+    title: 账号密码正确；获取token成功
     payload:
       account: root
       password: tian159.
@@ -18,3 +8,47 @@
       $.token:
         compart: is_not_null
         expect: True
+
+-
+  testCases:
+    payload:
+      title: 密码错误；获取token失败
+      account: root
+      password: 123456
+    assert:
+      $.error:
+        compart: equals
+        expect: 登录失败，请检查您的用户名或密码是否填写正确。
+
+-
+  testCases:
+    title: 账号错误；获取token失败
+    payload:
+      account: root111
+      password: tian159.
+    assert:
+      $.error:
+        compart: equals
+        expect: 登录失败，请检查您的用户名或密码是否填写正确。
+
+-
+  testCases:
+    title: 账号为空；获取token失败
+    payload:
+      account:
+      password: tian159.
+    assert:
+      $.error:
+        compart: equals
+        expect: 登录失败，请检查您的用户名或密码是否填写正确。
+
+-
+  testCases:
+    title: 密码为空；获取token失败
+    payload:
+      account: root
+      password:
+    assert:
+      $.error:
+        compart: equals
+        expect: 登录失败，请检查您的用户名或密码是否填写正确。

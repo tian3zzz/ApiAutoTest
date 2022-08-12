@@ -61,3 +61,5 @@ def get_assert_data(testCases, response):
             is_not_null(actual)
         elif value['compart'] == 'status_code':
             equals(response.status_code, value['expect'])
+        else:
+            print('暂不支持该断言方法...')
