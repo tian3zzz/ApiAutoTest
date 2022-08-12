@@ -16,9 +16,9 @@ def get_yaml_comm(file):
 
 
 # 获取测试数据
-def get_yaml_test_data(testCases):
+def get_yaml_test_data(test_cases):
     test_data = {}
-    for key, value in testCases['testCases'].items():
+    for key, value in test_cases['testCases'].items():
         test_data[key] = value
     return test_data
 
@@ -30,8 +30,8 @@ def get_yaml_test_data(testCases):
 
 
 # 获取断言值并返回字典
-def get_yaml_assert(testCases):
-    test_data = get_yaml_test_data(testCases)
+def get_yaml_assert(test_cases):
+    test_data = get_yaml_test_data(test_cases)
     assert_data_dict = {}
     for key, value in test_data['assert'].items():
         assert_data_dict[key] = value
@@ -39,8 +39,8 @@ def get_yaml_assert(testCases):
 
 
 # 获取断言数据后进行断言
-def get_assert_data(testCases, response):
-    assert_data = get_yaml_assert(testCases)
+def get_assert_data(test_cases, response):
+    assert_data = get_yaml_assert(test_cases)
     for key, value in assert_data.items():
         actual = jsonpath(response.json(), key)[0]
         if value['compart'] == 'equals':
