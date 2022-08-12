@@ -1,8 +1,5 @@
 import pytest
-from utils import utils
-from config import log_config
-import logging
-from api.get_personal_information_api import GetPersonalInformationApi
+from api.user_api.get_personal_information_api import GetPersonalInformationApi
 
 
 # 获取token

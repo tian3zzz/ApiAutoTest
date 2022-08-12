@@ -1,0 +1,29 @@
+-
+  testCases:
+    title: 获取id为4的产品详情
+    id: 4
+    payload:
+    assert:
+      $..name:
+        compart: equals
+        expect: 淘宝
+
+-
+  testCases:
+    title: 获取id为5的产品详情
+    id: 5
+    payload:
+    assert:
+      $..name:
+        compart: equals
+        expect: sss
+
+-
+  testCases:
+    title: 获取id为6的产品详情
+    id: 6
+    payload:
+    assert:
+      $..name:
+        compart: equals
+        expect: 京东

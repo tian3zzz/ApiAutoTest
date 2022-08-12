@@ -1,5 +1,5 @@
 import pytest
-from api.get_token_api import GetTokinApi
+from api.token_api.get_token_api import GetTokinApi
 
 
 @pytest.fixture(scope='class')

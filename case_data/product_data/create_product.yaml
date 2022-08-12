@@ -1,0 +1,11 @@
+-
+  testCases:
+    title: 填写所有必填参数，创建产品成功
+    payload:
+      name: 京东1111
+      program:
+      code: 第二好的网站1111
+    assert:
+      $..name:
+        compart: equals
+        expect: 京东1111
